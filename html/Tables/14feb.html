@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        /* table, th, tr, td{
+            border: 2px black;
+        } */
+       tr{
+        height: 50px;
+        vertical-align: bottom;
+        vertical-align: top;
+        vertical-align: auto;
+        vertical-align: middle;
+        text-align: center;
+        text-align: right;
+        text-align: left;
+       }
+       th{
+        text-align: center;
+       }
+       caption{
+            font-size: large;
+       }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>ELECTRONICS</caption>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Type</th>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>1</td>
+            <td>Boat</td>
+            <td>3000/-</td>
+            <td rowspan="3" style="text-align: center;">SPEAKERS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>JBL</td>
+            <td>5000/-</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Noise</td>
+            <td>2000/-</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <td colspan="2">Total Price</td>
+        <td>160000/-</td>
+        <td style="text-align: center;">SPEAKERS <br> And <br>TELEVISIONS</td>
+       </tfoot>
+       <tbody>
+        <tr>
+            <td>1</td>
+        <td>Sony</td>
+        <td>100000/-</td>
+        <td rowspan="2" style="text-align: center;">TELEVISIONS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Samsung</td>
+            <td>50000/-</td>
+        </tr>
+       </tbody>
+    </table>
+</body>
+</html>

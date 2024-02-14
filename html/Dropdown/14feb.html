@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <label for="">From</label>
+    <select name="" id=""> <!--for drop down-->
+        <optgroup label="South">
+            <option label="hyd" value="city">Hyd</option> <!--if we give label attribute, this only appears in browser(hyd) otherwise Hyd will appears -->
+            <option value="city" disabled>Bnglr</option> <!--disabled means cant select-->
+        </optgroup>
+        <optgroup label="North">
+            <option value="city">Delhi</option>
+            <option selected value="city">Jaipur</option> <!--selected value means which appears defaultly-->
+        </optgroup>
+    </select> &nbsp;&nbsp;&nbsp;
+    <label for="">To</label>
+    <select name="" id="">
+        <option value="city">gujarat</option>
+        <option value="city" title="Gurgaon">gurgaon</option> <!--title is used to display text when hovered-->
+    </select><hr>
+    <input type="date"><hr>
+    <input type="submit">
+</body>
+</html>

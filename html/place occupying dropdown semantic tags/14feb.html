@@ -3,18 +3,30 @@
 <head>
     <title>Document</title>
     <style>
-        ul{
-            text-align: center;
-        }
-        ul a{
-            padding: 30px;
-        }
-        
+       header nav ul {
+        text-align: center;
+        vertical-align: middle;
+       } 
+       header nav ul a{
+        padding: 30px;
+       }
+       header h1{
+        text-align: center;
+        background-color: lightgreen;
+       }
+       header nav{
+        background-color:lightskyblue;
+       }
+       footer{
+        text-align: center;
+        background-color: bisque;
+       }
     </style>
 </head>
 <body>
-    <nav>
+    <header>
         <h1>Ecommerce</h1><hr>
+    <nav>
         <ul>
             <a href="">Home</a>
             <a href="">Services</a>
@@ -22,13 +34,35 @@
             <a href="">Contact</a>
         </ul><hr>
     </nav>
-    <details>
+    </header>
+   <main>
+    <details open>
         <summary>Mobiles</summary>
-        <ul>
-            <li>a1</li>
-            <li>a2</li>
+        <ul type="none">
+            <li><a href="./15feb.html" target="_blank">iphone</a></li>
+            <li><a href="">samsung</a></li>
+            <li><a href="">vivo</a></li>
         </ul>
     </details>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eligendi, perferendis reprehenderit modi esse ratione temporibus laboriosam maxime odio, similique fugiat! Facere enim repellat nostrum quasi nisi deserunt! Ullam, molestiae!</p>
+    <details open>
+        <summary>Laptops</summary>
+        <ul type="none">
+            <li><a href="">mac</a></li>
+            <li><a href="">lenovo</a></li>
+            <li><a href="">hp</a></li>
+        </ul>
+    </details>
+    <details open>
+        <summary>Laptops</summary>
+        <ul type="none">
+            <li><a href="">mac</a></li>
+            <li><a href="">lenovo</a></li>
+            <li><a href="">hp</a></li>
+        </ul>
+    </details>
+   </main>
+   <footer>
+    <p>&copy; Ecommerce</p>
+   </footer>
 </body>
 </html>

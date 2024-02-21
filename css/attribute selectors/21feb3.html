@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>Document</title>
+    <style>
+        [href]{
+            border: 2px solid blue;
+        }
+        [target="_blank"]{
+            border: 2px solid red;
+        }
+        /* these 2 are has attributes */
+        [type^="te"]{
+            border: 2px solid hotpink;
+        }
+        /* this property will be acquired for type starting with te */
+        [href$="in"]{
+            border: 2px solid rgb(6, 243, 42);
+        }
+        /* this property will be acquired for href ending with in */
+        [type*="email"]{
+            border: 2px solid royalblue;
+        }
+        /* this property will be acquired for all type with email */
+
+</style>
+ </head>
+ <body>
+    <a href="https:www.google.com">google</a>
+    <a href="https:www.facebook.com">facebook</a>
+    <a href="https:www.flipkart.com" target="_blank">flipkart</a>
+     <label for="">username</label>
+     <input type="text">
+     <a href="https:www.amazon.in">amazon</a><br>
+     <label for="">email</label>
+     <input type="email">
+     <label for="">email2</label>
+     <input type="email">
+ </body>
+ </html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div + p{
+            border: 2px solid black;
+        }
+        /* here mentioned style is applied for the next element which is present after div+p */
+        section ~ p{
+            border: 2px solid red;
+        }
+        /* here mentioned style is applied for all the next element which is present after section+p */
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>hello a</p>
+    </div>
+    <p>hello b</p>
+    <p>hello c</p>
+    <p>hello d</p>
+
+
+    <section>
+        <p>hello a</p>
+    </section>
+    <p>hello b</p>
+    <p>hello c</p>
+    <p>hello d</p>
+</body>
+</html>

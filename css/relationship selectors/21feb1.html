@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        ul{
+            border: 2px solid purple;
+        }
+        ul>li{
+            border: 2px solid skyblue;
+            margin: 5px;
+        }/*   child selector */
+        ol{
+            border: 2px solid violet;
+        }
+        ol>li{
+            border: inherit;
+            margin: 5px;
+        }/*  border properties inherited from parent element */
+        .c1>.c2{
+            color: red;
+        }
+        .c1>.c2{
+            color: initial;
+        }/*  initial changes to default value */
+    </style>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <section class="c1">
+        <div class="c2">one</div>
+        <div class="c3">two</div>
+        <div class="c4">three</div>
+    </section>
+</body>
+</html>
